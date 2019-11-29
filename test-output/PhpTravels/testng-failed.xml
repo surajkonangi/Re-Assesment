@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PhpTravels]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HotelBookingValidation(failed)">
+    <classes>
+      <class name="com.atmecs.testscripts.PhpTravels">
+        <methods>
+          <include name="hotelBookingVerification"/>
+          <include name="invokeBrowser"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.testscripts.PhpTravels -->
+    </classes>
+  </test> <!-- HotelBookingValidation(failed) -->
+</suite> <!-- Failed suite [PhpTravels] -->
